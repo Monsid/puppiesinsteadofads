@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Puppies Instead of Ads",
+    "version": "1.0",
+    "description": "Replaces ads on websites with cute puppy images",
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content_scripts/content.js"]
+      }
+    ]
+  }
